@@ -1,10 +1,11 @@
 import './App.css';
+import TweetBlockTest from './components/tweetBlockTest/TweetBlockTest'
 
 function App() {
   return (
-    <div className="App">
-      <div id="fb-root">
-          <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+    <div>
+      <div>
+          <TweetBlockTest />
       </div>
     </div>
   );
